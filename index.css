@@ -22,3 +22,9 @@ header{
     
     top: 30px;
 }
+#btn-toPerguntas{
+    padding: 10px;
+    background-color: #0EA47A;
+    color: white;
+    border-radius: 8px;
+}

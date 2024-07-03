@@ -5,3 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
     
 });
 
+function toPerguntas(){
+    window.location.href = "/#";
+}
