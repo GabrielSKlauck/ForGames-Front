@@ -1,7 +1,24 @@
+@font-face{
+    @font-face {
+        font-family: 'abel';
+        src: url('/assets/fonts/abel/Abel-Regular.ttf');
+    }
+}
 html, body {
+    font-family: 'abel';
     height: 100%;
     margin: 0;
 }
 header{
     border-bottom: #0EA47A 5px solid !important;
+}
+.box-content{
+    font-family: 'abel';
+    width: 60rem;
+    height: 23rem;
+    background-color: rgb(49, 49, 49);
+}
+#imgCaixa1{
+    
+    top: 30px;
 }
