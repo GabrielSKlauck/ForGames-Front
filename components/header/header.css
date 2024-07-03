@@ -9,6 +9,9 @@ nav{
 nav > div > p, nav>ul {
     font-family: 'abel';
 }
+.logo{
+    cursor: pointer;
+}
 #btn-cadastrar{
     padding: 6px;
     background-color: #0EA47A;
