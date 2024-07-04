@@ -12,5 +12,12 @@ html, body {
 
 .external-div{
     height: 40rem;
-    border-color: black;
+    background-color: black;
+}
+
+form{
+    background-color: rgb(49, 49, 49);
+    width: 24rem;
+    height: 30rem;
+    border-radius: 20px;
 }
