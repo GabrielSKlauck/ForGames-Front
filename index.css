@@ -18,8 +18,14 @@ header{
     height: 23rem;
     background-color: rgb(49, 49, 49);
 }
-#imgCaixa1{
-    
+.box-content2{
+    margin-top: 5rem;
+    font-family: 'abel';
+    width: 60rem;
+    height: 18rem;
+    background-color: rgb(49, 49, 49);
+}
+#imgCaixa1{    
     top: 30px;
 }
 #btn-toPerguntas{
@@ -27,4 +33,8 @@ header{
     background-color: #0EA47A;
     color: white;
     border-radius: 8px;
+}
+
+footer{
+    background-color: rgb(49, 49, 49);
 }
