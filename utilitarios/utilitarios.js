@@ -2,7 +2,7 @@ export const criaHeader = async () => {
     const tagHeader = document.getElementsByTagName("header")[0];
     
     try {
-        const response = await fetch('./components/header/header.html');
+        const response = await fetch('/components/header/header.html');
         if (response.ok) {
             const headerContent = await response.text();
             tagHeader.innerHTML = headerContent;
@@ -18,7 +18,7 @@ export const criaFooter = async () => {
     const tagFooter = document.getElementsByTagName("footer")[0];
     
     try {
-        const response = await fetch('./components/footer/footer.html');
+        const response = await fetch('/components/footer/footer.html');
         if (response.ok) {
             const footerContent = await response.text();
             tagFooter.innerHTML = footerContent;
