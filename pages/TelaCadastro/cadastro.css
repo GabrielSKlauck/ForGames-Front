@@ -1,0 +1,16 @@
+@font-face{
+    @font-face {
+        font-family: 'abel';
+        src: url('/assets/fonts/abel/Abel-Regular.ttf');
+    }
+}
+html, body {
+    font-family: 'abel';
+    height: 100%;
+    margin: 0;
+}
+
+.external-div{
+    height: 40rem;
+    border-color: black;
+}

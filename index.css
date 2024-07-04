@@ -13,10 +13,12 @@ header{
     border-bottom: #0EA47A 5px solid !important;
 }
 .box-content{
+    margin-top: 20px;
     font-family: 'abel';
     width: 60rem;
     height: 23rem;
     background-color: rgb(49, 49, 49);
+    border-radius: 10px;
 }
 .box-content2{
     margin-top: 5rem;
@@ -24,6 +26,7 @@ header{
     width: 60rem;
     height: 18rem;
     background-color: rgb(49, 49, 49);
+    border-radius: 10px;
 }
 #imgCaixa1{    
     top: 30px;
