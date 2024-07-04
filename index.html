@@ -17,10 +17,46 @@
           }
         };
       </script>
+      
       <!-- Include Tailwind CSS using CDN (or link to your local file) -->
       <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="utilitarios/reset.css">
 </head>
-<body>
-    <h1 class="bg-black text-white">teste</h1>
+<body class="bg-black">
+  <header></header>
+
+  <div class="items-start justify-center h-full flex">
+    <div class="content">
+        <div class="box-content flex">
+            <div class="mt-14 ml-8">
+              <p class="text-white text-6xl">Faça sua pergunta</p>
+              <p class="text-white text-4xl ml-10">Encontre sua resposta</p>
+              <p class="text-white ml-10 mt-5 text-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Nulla aliquid numquam porro provident explicabo dolorum 
+                harum nihil error! Quae repellat ipsam neque non voluptates
+                 sit fugit libero omnis fuga sint!</p>
+                 <button type="menu" class="text-white mt-10 float-left ml-10" id="btn-toPerguntas" onclick="toPerguntas()">Perguntas</button>
+            </div>
+            <!-- <img src="assets/images/lupa.png" alt="" class="w-44 h-44" id="imgCaixa1"> -->
+             
+            
+        </div>
+        <div class="flex box-content2">
+            <div class="mt-5">
+              <p class="text-white text-6xl ml-8">Comunidade que ajuda!</p>
+              <p class="text-white text-3xl ml-10 mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Iste esse optio voluptatibus nostrum,
+                ducimus molestias repellat numquam iure porro expedita quam
+                hic asperiores magni quo! Quas amet aliquid doloremque. Incidunt!</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <footer class="w-full h-44">
+    
+  </footer>
+  <script type="module" src="index.js"></script>
+  <script type="module" src="utilitarios/utilitarios.js"></script>
 </body>
 </html>

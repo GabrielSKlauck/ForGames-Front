@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'abel';
+    src: url('/assets/fonts/abel/Abel-Regular.ttf');
+}
+
+nav{
+    background-color: #313131;   
+}
+nav > div > p, nav>ul {
+    font-family: 'abel';
+}
+.logo{
+    cursor: pointer;
+}
+#btn-cadastrar{
+    padding: 6px;
+    background-color: #0EA47A;
+    border-radius: 6px;
+}
